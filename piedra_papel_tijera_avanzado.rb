@@ -1,7 +1,8 @@
-puts "Elección jugador uno:
+puts "Debes de Seleccionar una Jugada:
 1. Piedra \n 2. Papel \n 3. Tijera \n 4. Salir"
 
 numero1 = gets.to_i
+
 if numero1==1 || numero1==2 || numero1==3
   puts "Elección jugador dos:
   1. Piedra \n 2. Papel \n 3. Tijera \n 4. Salir"
