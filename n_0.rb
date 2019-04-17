@@ -1,6 +1,6 @@
 n = ARGV[0].to_i
 
-def numero_cero (n)
+def ciclo_cero(n)
   cero = ""
   for i in 1..n do
     for j in 1..n do
@@ -15,4 +15,4 @@ def numero_cero (n)
   end
 end
 
-numero_cero(n)
+ciclo_cero(n)
